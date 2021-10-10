@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.WinApp">
+      <UniqueIdentifier>{9b424c69-cfb7-4c32-a2d0-0d8638ae8dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document">
+      <UniqueIdentifier>{1db07f3f-023b-472d-8b6e-8df91d905893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.FrameWnd">
+      <UniqueIdentifier>{da1786ff-9866-48d0-8831-039bc030265d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View">
+      <UniqueIdentifier>{e69c29f2-e17f-47c8-b8bd-24c1751f16db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{5b011275-e7b7-4853-b54f-e8574b511613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers">
+      <UniqueIdentifier>{ffd9b26f-9300-4bd0-86dd-6b2b36d19dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\00.DeviceMgr">
+      <UniqueIdentifier>{9a2ed5b1-2496-4aee-9f19-6deec2135a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.TextureMgr">
+      <UniqueIdentifier>{db190fe2-a437-46e4-b4ae-4fede9b6d3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.TextureMgr\00.Texture">
+      <UniqueIdentifier>{77e9dd2b-1685-4b69-b1e0-31df0a20c2b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.TextureMgr\00.Texture\00.SingleTexture">
+      <UniqueIdentifier>{8abdc20c-5e8c-4b65-8c39-092c754f596b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.TextureMgr\00.Texture\01.MultiTexture">
+      <UniqueIdentifier>{a6ec24ec-6ef6-4705-bb54-01936ec42f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\00.FormView">
+      <UniqueIdentifier>{e2472716-3de3-4d6d-8687-20157ac723cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\01.MiniView">
+      <UniqueIdentifier>{d548395b-dfe9-4a90-ba8b-8966121be35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject">
+      <UniqueIdentifier>{dbb3b3a4-6344-4714-aaf0-cc10e3269399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\00.Terrain">
+      <UniqueIdentifier>{3bec59c2-5f08-4597-92e6-4ef4e3b828a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog">
+      <UniqueIdentifier>{dd07f0d3-8e93-490d-bfd1-84749c1601f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.UnitTool">
+      <UniqueIdentifier>{b88cec21-2e75-4c1b-a4ec-7eea0eeb07fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\01.MapTool">
+      <UniqueIdentifier>{13645526-a3dd-40e7-88a2-c0d893990e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.FileInfo">
+      <UniqueIdentifier>{2febc902-9818-411b-8d17-f2080ebfdf22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\02.PopUp">
+      <UniqueIdentifier>{e5d00b98-a50f-4a7d-9507-d05260604828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\02.PopUp\00.PropertySheet">
+      <UniqueIdentifier>{7cbecfd9-ca63-4bea-8aaa-a0cd9a57d1a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\02.PopUp\00.PropertySheet\00.Page1">
+      <UniqueIdentifier>{4ebe6eda-b38d-42b6-a86f-2aee3078eed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\02.PopUp\00.PropertySheet\01.Page2">
+      <UniqueIdentifier>{d7dc370e-dc95-4bff-90f2-a38ea7773b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\03.PathExtract">
+      <UniqueIdentifier>{471b9ff7-657b-4696-9bed-ace8849f6bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\01.MyMap">
+      <UniqueIdentifier>{732d3e78-01e1-4bae-913f-2e6d86424e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\02.Line">
+      <UniqueIdentifier>{a7c22d5a-0183-45b8-a736-082dc63df7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\02.Line\LineMgr">
+      <UniqueIdentifier>{e2323b2f-9f07-4b5a-89cf-5556c82db4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\03.Obj">
+      <UniqueIdentifier>{ddcb230d-6594-47a2-b791-aea6212983eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool.h">
+      <Filter>00.WinApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02.FrameWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>03.View</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMgr.h">
+      <Filter>98.Managers\00.DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>98.Managers\01.TextureMgr\00.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>98.Managers\01.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>98.Managers\01.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>05.GameObject\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>03.View\00.FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>03.View\01.MiniView</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTool.h">
+      <Filter>04.Dialog\00.UnitTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>04.Dialog\01.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>06.FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUp.h">
+      <Filter>04.Dialog\02.PopUp</Filter>
+    </ClInclude>
+    <ClInclude Include="MySheet.h">
+      <Filter>04.Dialog\02.PopUp\00.PropertySheet</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPage1.h">
+      <Filter>04.Dialog\02.PopUp\00.PropertySheet\00.Page1</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPage2.h">
+      <Filter>04.Dialog\02.PopUp\00.PropertySheet\01.Page2</Filter>
+    </ClInclude>
+    <ClInclude Include="PathExtract.h">
+      <Filter>04.Dialog\03.PathExtract</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMap.h">
+      <Filter>05.GameObject\01.MyMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>05.GameObject\02.Line</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMgr.h">
+      <Filter>05.GameObject\02.Line</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>98.Managers\01.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTestObj.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00.WinApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02.FrameWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>03.View</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMgr.cpp">
+      <Filter>98.Managers\00.DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>98.Managers\01.TextureMgr\00.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>98.Managers\01.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>98.Managers\01.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>05.GameObject\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>03.View\00.FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>03.View\01.MiniView</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTool.cpp">
+      <Filter>04.Dialog\00.UnitTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>04.Dialog\01.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>06.FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUp.cpp">
+      <Filter>04.Dialog\02.PopUp</Filter>
+    </ClCompile>
+    <ClCompile Include="MySheet.cpp">
+      <Filter>04.Dialog\02.PopUp\00.PropertySheet</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPage1.cpp">
+      <Filter>04.Dialog\02.PopUp\00.PropertySheet\00.Page1</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPage2.cpp">
+      <Filter>04.Dialog\02.PopUp\00.PropertySheet\01.Page2</Filter>
+    </ClCompile>
+    <ClCompile Include="PathExtract.cpp">
+      <Filter>04.Dialog\03.PathExtract</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMap.cpp">
+      <Filter>05.GameObject\01.MyMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>05.GameObject\02.Line</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMgr.cpp">
+      <Filter>05.GameObject\02.Line</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>98.Managers\01.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTestObj.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+</Project>

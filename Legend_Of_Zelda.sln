@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{213BF66A-8B03-4250-8887-290211D8E7DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tool", "Tool", "{759A01A9-5FBF-4177-AE1F-52F63C73196B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Headers", "Headers", "{AB03F6E1-9EF8-4313-A9AD-DF1A9630CFBE}"
+	ProjectSection(SolutionItems) = preProject
+		Headers\Define.h = Headers\Define.h
+		Headers\Enum.h = Headers\Enum.h
+		Headers\Extern.h = Headers\Extern.h
+		Headers\Function.h = Headers\Function.h
+		Headers\Include.h = Headers\Include.h
+		Headers\Struct.h = Headers\Struct.h
+		Headers\Typedef.h = Headers\Typedef.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Legend_Of_Zelda", "Client\Legend_Of_Zelda.vcxproj", "{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tool", "Tool\Tool.vcxproj", "{CAFDD994-5288-410A-98BD-7E4E17587A56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD}.Debug|x64.ActiveCfg = Debug|x64
+		{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD}.Debug|x64.Build.0 = Debug|x64
+		{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD}.Debug|x86.ActiveCfg = Debug|Win32
+		{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD}.Debug|x86.Build.0 = Debug|Win32
+		{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD}.Release|x64.ActiveCfg = Release|x64
+		{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD}.Release|x64.Build.0 = Release|x64
+		{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD}.Release|x86.ActiveCfg = Release|Win32
+		{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD}.Release|x86.Build.0 = Release|Win32
+		{CAFDD994-5288-410A-98BD-7E4E17587A56}.Debug|x64.ActiveCfg = Debug|x64
+		{CAFDD994-5288-410A-98BD-7E4E17587A56}.Debug|x64.Build.0 = Debug|x64
+		{CAFDD994-5288-410A-98BD-7E4E17587A56}.Debug|x86.ActiveCfg = Debug|Win32
+		{CAFDD994-5288-410A-98BD-7E4E17587A56}.Debug|x86.Build.0 = Debug|Win32
+		{CAFDD994-5288-410A-98BD-7E4E17587A56}.Release|x64.ActiveCfg = Release|x64
+		{CAFDD994-5288-410A-98BD-7E4E17587A56}.Release|x64.Build.0 = Release|x64
+		{CAFDD994-5288-410A-98BD-7E4E17587A56}.Release|x86.ActiveCfg = Release|Win32
+		{CAFDD994-5288-410A-98BD-7E4E17587A56}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD} = {213BF66A-8B03-4250-8887-290211D8E7DD}
+		{CAFDD994-5288-410A-98BD-7E4E17587A56} = {759A01A9-5FBF-4177-AE1F-52F63C73196B}
+	EndGlobalSection
+EndGlobal

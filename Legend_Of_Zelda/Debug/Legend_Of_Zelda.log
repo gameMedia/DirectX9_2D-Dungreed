@@ -1,0 +1,25 @@
+﻿  stdafx.cpp
+  TrapObject.cpp
+  StateMgr.cpp
+  SaveField.cpp
+  Player.cpp
+  ObjMgr.cpp
+  Obj.cpp
+  Move.cpp
+  Monster.cpp
+  MainGame.cpp
+  LineMgr.cpp
+  Line.cpp
+c:\users\administrator.jusin-20180208h\documents\framework 04-25 22시2분 명령패턴\legend_of_zelda\line.cpp(21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\administrator.jusin-20180208h\documents\framework 04-25 22시2분 명령패턴\legend_of_zelda\line.cpp(22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Legend_Of_Zelda.cpp
+  KeyMgr.cpp
+  Jump.cpp
+  Idle.cpp
+  CollisionMgr.cpp
+  Att.cpp
+  ActMgr.cpp
+  ActCommand.cpp
+  코드를 생성하고 있습니다...
+  Legend_Of_Zelda.vcxproj -> C:\Users\Administrator.JUSIN-20180208H\Documents\FrameWork 04-25 22시2분 명령패턴\Debug\Legend_Of_Zelda.exe
+  Legend_Of_Zelda.vcxproj -> C:\Users\Administrator.JUSIN-20180208H\Documents\FrameWork 04-25 22시2분 명령패턴\Debug\Legend_Of_Zelda.pdb (Full PDB)

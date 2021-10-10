@@ -1,0 +1,1164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{4af81b3d-56d2-4cb1-aa2d-f40532229baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{8f1171c4-9d57-4c9e-abb7-92cdd757864d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj">
+      <UniqueIdentifier>{bc0e27cf-0fb4-4344-be38-d03a1c29d165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player">
+      <UniqueIdentifier>{ca2f6ae3-78da-4d08-8589-c3da5225e4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster">
+      <UniqueIdentifier>{b86574d6-c186-4233-8e1d-1a36e303b6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-4.TrapObject">
+      <UniqueIdentifier>{1826b84a-8688-4fae-9fa5-37fb7c9576ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager">
+      <UniqueIdentifier>{28879fb9-1162-40ef-a727-d7579bd73659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern">
+      <UniqueIdentifier>{ce57c3e2-6336-4d8a-878f-3344e9bd2f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerAct">
+      <UniqueIdentifier>{f89cb345-c103-4141-bdac-ad24e4c1acc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.ObjMgr">
+      <UniqueIdentifier>{e0297b73-416d-4bf5-9d74-76a3e50e9859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\01.CollisionMgr">
+      <UniqueIdentifier>{f2eb12bf-265c-464c-82a3-bd178c5cfc16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr">
+      <UniqueIdentifier>{4156c74a-2ded-459a-becb-d1ba6d655bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\03.TileMgr">
+      <UniqueIdentifier>{c0fb8e85-8403-4459-bd51-ca772015e8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\03.TileMgr\00.Terrain">
+      <UniqueIdentifier>{85e03c4b-ef87-467d-b930-bd2fecd531b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\04.ScrollMgr">
+      <UniqueIdentifier>{ea1ee1db-1cc9-4149-865d-f9481e5855d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\05.SceneMgr">
+      <UniqueIdentifier>{d28ac82a-0c38-4d88-a7b8-8c035289cbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\06.KeyMgr">
+      <UniqueIdentifier>{094dbd92-2ceb-4d2b-9d4d-669e20dbcf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr">
+      <UniqueIdentifier>{a8927932-b387-47a0-b9ae-53e42c33eb15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr\Command">
+      <UniqueIdentifier>{afefa5ea-0ba0-4b10-8e65-ad0d72e563ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr\Command\Jump">
+      <UniqueIdentifier>{6aa89f11-fdc5-49a4-aa4b-27a68dd3e73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr\Command\IDLE">
+      <UniqueIdentifier>{0e13bb4b-d641-4fa3-862a-2e8c9cd4f517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr\Command\Att">
+      <UniqueIdentifier>{7bfcddcc-a34c-478f-bf3b-5972b09cf145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr\Command\Move">
+      <UniqueIdentifier>{b532be4a-9fc3-4768-aae3-4505286986ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\08.LineMgr">
+      <UniqueIdentifier>{8347bc16-21dc-4716-a692-7eb35e4efe38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\09.TextureMgr">
+      <UniqueIdentifier>{0a76c39a-424d-4506-8e13-70c2ea23c1f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\09.TextureMgr\00.Texture">
+      <UniqueIdentifier>{7bc407f6-7de7-43a9-9391-a1dabbddc64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\09.TextureMgr\00.Texture\00.SingleTexture">
+      <UniqueIdentifier>{900a4cc6-bc6c-42dc-8180-2a44c004ea6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\09.TextureMgr\00.Texture\01.MultiTexture">
+      <UniqueIdentifier>{ce46c93b-884f-411a-a4fe-d5c8382279da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\10.DeviceMgr">
+      <UniqueIdentifier>{e638c888-118e-44db-9c3b-bb325f4abdfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\05.SceneMgr\00.Scene">
+      <UniqueIdentifier>{571f6d1a-fc8e-4f32-b6fa-fc114f77a9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\05.SceneMgr\00.Scene\00.Logo">
+      <UniqueIdentifier>{0266e419-1b8e-4649-b55c-500c2bafe959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\05.SceneMgr\00.Scene\01.Stage">
+      <UniqueIdentifier>{bece267d-7141-442b-ba4e-7ca214b6fe1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\NewFilter2">
+      <UniqueIdentifier>{fe8a533b-f478-4d4c-b1b2-d3d19c768ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\11.TimeMgr">
+      <UniqueIdentifier>{8a71514a-f283-4674-9706-1038b053ac42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\12.FrameMgr">
+      <UniqueIdentifier>{921511aa-1105-47f7-aa1a-aef18b64c219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-5.Mouse">
+      <UniqueIdentifier>{92e51e17-566f-4793-991a-6166a199b2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerAct\PlayerAttack">
+      <UniqueIdentifier>{df4a4234-4e3b-4c3e-be21-5fe5fc8291bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerAct\PlayerJump">
+      <UniqueIdentifier>{e50fb46b-66d4-4a1f-9c60-029e7c73fd85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerAct\PlayerMove">
+      <UniqueIdentifier>{58af901a-2419-48d3-bf0e-4ebd64ab34aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerAct\PlayerLookMouse">
+      <UniqueIdentifier>{c0d7e6a8-f0a5-49f0-96ac-b957d4dd4615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\Boss">
+      <UniqueIdentifier>{79f3d075-c1d2-4bb8-bc60-5c6c3699e71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\Boss\IcePillar">
+      <UniqueIdentifier>{7b947a6f-e99a-4ce2-a74d-005791383003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\01.CommandPattern">
+      <UniqueIdentifier>{52fd543f-ca39-4b32-8fb6-a1b53f2ff835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\00.AbstractFactory">
+      <UniqueIdentifier>{ec15086f-dc8e-4a92-bf38-26d8a078bcd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern">
+      <UniqueIdentifier>{7c60412e-33f8-4602-a164-5622e01670d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\03.ObserverPattern">
+      <UniqueIdentifier>{15cb229b-039d-4eee-900e-04ba857b4796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29">
+      <UniqueIdentifier>{d720276c-d35d-4152-9e35-4ddcfeb31e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\01.Implementor%28구현층%29">
+      <UniqueIdentifier>{b22ff3d8-e8d6-4932-b18a-5209e4e6ce3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29\00.NormalEffect">
+      <UniqueIdentifier>{16d599ec-364e-4b7a-b182-7188bff9b532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29\01.BuffEffect">
+      <UniqueIdentifier>{bd0b7f28-53b1-4f5a-a72a-f196e28a7010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\00.AnimationImpl">
+      <UniqueIdentifier>{ddd32a14-b571-45e1-b7b2-7140c7f18698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\01.NoAnimationImpl">
+      <UniqueIdentifier>{5cb2b15e-c6b9-4d11-afc8-04d02f34456e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29\02.StopEffect">
+      <UniqueIdentifier>{3ac3dff8-36a4-4268-a420-77c31f5660a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\03.ObserverPattern\00.Subject">
+      <UniqueIdentifier>{f9376e83-980b-4b60-8077-900b2a13b82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\03.ObserverPattern\00.Subject\00.PlayerSubject">
+      <UniqueIdentifier>{3e271a9c-7dbd-427d-aad3-51727183ae12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\03.ObserverPattern\00.Subject\01.BossSubject">
+      <UniqueIdentifier>{32a35edc-9829-4d58-879f-0d674e1f1d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\03.ObserverPattern\01.Observer">
+      <UniqueIdentifier>{458c6edf-8d38-4ec7-afce-112a0e7c45e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\03.ObserverPattern\01.Observer\00.HpObserver">
+      <UniqueIdentifier>{82ed5b96-00fb-4cc5-b24c-c803e6c059c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\03.ObserverPattern\00.Subject\02.MonsterSubject">
+      <UniqueIdentifier>{600bd737-735b-4cfe-8408-c1c5c1890fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\00.MonsterHpBar">
+      <UniqueIdentifier>{9df84721-b359-4a59-b51a-5a1db9451bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\99.UI">
+      <UniqueIdentifier>{a9b099ec-45a0-4843-9685-5403056cdc63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\99.UI\00.LoadingBar">
+      <UniqueIdentifier>{7003a3a8-0891-4b47-bacb-503de39f4078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\99.UI\00.LoadingBar\LoadingBarBase">
+      <UniqueIdentifier>{42fbe1bd-d05f-4f0c-87de-3d074ad2e8c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\99.UI\00.LoadingBar\LoadingBar">
+      <UniqueIdentifier>{47c13c83-6881-476d-9500-e46353a3cb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\05.SceneMgr\00.Scene\02.Menu">
+      <UniqueIdentifier>{c17ec541-857a-4388-8382-44095766e8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.ObjMgr\00.UIMgr">
+      <UniqueIdentifier>{4742c698-8e58-4794-b49b-c8a71509ef97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field">
+      <UniqueIdentifier>{5e68e9cc-6acd-453c-bd37-1a7f4f443d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\00.Town">
+      <UniqueIdentifier>{6f24730a-7c19-4686-9891-f2247c3c02f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon">
+      <UniqueIdentifier>{46438dfb-5faf-4c64-bb80-f3b21ed23105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerAct\PlayerMove\Left">
+      <UniqueIdentifier>{91d4c120-2a66-48d4-9a38-71cb6db21f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerAct\PlayerMove\Right">
+      <UniqueIdentifier>{51e37bf7-b938-42c0-bd56-b43f0719e0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr\Command\Move\Left">
+      <UniqueIdentifier>{3743385f-1f5d-4373-9ce4-9b1b9c6a9fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr\Command\Move\Right">
+      <UniqueIdentifier>{586b668c-1039-44f4-b904-da311c21b826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr\Command\Jump\PressDown">
+      <UniqueIdentifier>{f9f28f52-7b15-48e9-a44b-9925301fd4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerAct\PlayerJump\PlayerDownJump">
+      <UniqueIdentifier>{31d14b43-e134-4390-94c3-93c0bd8c7378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr\Command\Dash">
+      <UniqueIdentifier>{c391559c-cbe1-4384-aaad-7a39160b4f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.ActMgr\Command\Dash\PlayerDash">
+      <UniqueIdentifier>{724bf33d-0a5b-4f86-b64b-e6840735da12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerAct\PlayerDash">
+      <UniqueIdentifier>{f64f350b-8c77-4df6-a5f2-a0a5a1494cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.ObjMgr\00.UIMgr\AlwaysUI">
+      <UniqueIdentifier>{415c5ced-29a1-4a1a-bab8-5f580f93d1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.ObjMgr\00.UIMgr\OnOffUI">
+      <UniqueIdentifier>{9ea39e4a-dccb-4d84-a491-6847639635ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.ObjMgr\00.UIMgr\OnOffUI\Inventory">
+      <UniqueIdentifier>{d53c06bb-b341-4c7b-bdf7-fcf7eb0da80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\99.UI\01.Button">
+      <UniqueIdentifier>{d5d3ade1-576e-493d-a081-b5c121032011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\99.UI\01.Button\SetButton">
+      <UniqueIdentifier>{e307061f-a12c-4d7a-8d64-1e01ef00311f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\99.UI\01.Button\StartButton">
+      <UniqueIdentifier>{f580ae4e-9a0a-431b-8a1b-bfbe8c5086b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\99.UI\01.Button\ExitButton">
+      <UniqueIdentifier>{914baa98-288f-44e4-bff6-e255609ee30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Icon">
+      <UniqueIdentifier>{7bde4c64-869f-4db3-a0fe-80b573f7dddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item">
+      <UniqueIdentifier>{d3a52679-cf40-4ff4-8d53-24a881118acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.ObjMgr\01.ItemMgr">
+      <UniqueIdentifier>{16984b1c-8c95-48a2-85a4-8df559c7a60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\MainWeapon">
+      <UniqueIdentifier>{6c8855be-9b8d-47c0-8822-82bd7bf0eec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\SubWeapon">
+      <UniqueIdentifier>{9e835ed8-16c7-4ff6-9ef0-fbbca5a71210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\Artifact">
+      <UniqueIdentifier>{520cf99a-8d55-4811-94b3-98141d88120e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29\03.IcePillarEffect">
+      <UniqueIdentifier>{18e3c63c-dcf8-43aa-a7fd-5929049cfb8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\Hand">
+      <UniqueIdentifier>{9d68c915-e805-4c1d-a78a-ee53f0d98a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\Hand\MainHand">
+      <UniqueIdentifier>{4264d313-c8cb-40b2-b1c6-487f051a4961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\Hand\SubHand">
+      <UniqueIdentifier>{7fdc2905-81ca-43a7-98b7-2e6e47173152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\MainWeapon\FireSword">
+      <UniqueIdentifier>{507dfb04-e07f-4d41-9534-f37cce53ee1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\MainWeapon\NormalSword">
+      <UniqueIdentifier>{9e4088d2-4d45-4d82-87b5-f5cbdcf0103c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29\04.MeleeAttack">
+      <UniqueIdentifier>{4b7d609c-446c-4e98-8b1a-ea31cdbba636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29\05.DashEffect">
+      <UniqueIdentifier>{47e6142a-59d1-4bf3-8b3a-fcf5e55f8c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\DungeonGate">
+      <UniqueIdentifier>{af0e7963-5a53-4ebc-b204-0d76dd23609e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\02.FieldChangeAni">
+      <UniqueIdentifier>{3a61814e-17e4-40f4-911c-5b35e306618c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\05.SceneMgr\03.Dungeon">
+      <UniqueIdentifier>{8c028213-4529-4414-bf73-fd6a01986988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon\1">
+      <UniqueIdentifier>{fa79d3d0-ca96-47e9-bf2d-b4f1dcfd2760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon\2">
+      <UniqueIdentifier>{9832984c-dc37-433e-9519-3a58370d887e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon\3.WeaponShop">
+      <UniqueIdentifier>{c037c036-bbfe-4f35-b3cd-084b2c018aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon\4">
+      <UniqueIdentifier>{9b085dc6-7b60-4206-a202-2a62c6c30461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon\5.Restaurant">
+      <UniqueIdentifier>{525f8801-d7fa-4703-baf7-aea6c8c9aabc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon\6">
+      <UniqueIdentifier>{e48c9812-e89c-4bfe-91bb-80e1cdf2c57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon\7.ReinForce">
+      <UniqueIdentifier>{d09cb22d-680b-4d5a-a101-5f4a6913d819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon\8.BossStage">
+      <UniqueIdentifier>{3e64a370-465f-4142-bc97-83e8dc824141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\00.AnimationImpl\00.AlphaAnimationImpl">
+      <UniqueIdentifier>{86471e64-7ca3-46a5-a2bb-9aea481e206d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\SkullDog">
+      <UniqueIdentifier>{bad71526-065d-4bc7-841a-9c05964fddc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\Bat">
+      <UniqueIdentifier>{5d78c45b-923c-4af2-a3d4-fdf019f4fb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\SkullSoldier">
+      <UniqueIdentifier>{7aa6df2a-82de-454b-adf7-74a397a5c1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\Bansh">
+      <UniqueIdentifier>{7584d9dc-61c7-4d85-83d6-a65b531079eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29\06.WarningEffect">
+      <UniqueIdentifier>{2dc7f464-311d-4094-80ef-ed3f868b41d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerHpBar">
+      <UniqueIdentifier>{8d3b0ceb-23c8-408b-9038-d53785f65c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\Bansh\BanshBullet">
+      <UniqueIdentifier>{ca91be79-2d41-4c12-b7ea-47b799f3d133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29\07.HitEffect">
+      <UniqueIdentifier>{c44fc7d1-6133-4cc8-ae2d-5349f45e1a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\EnemyHpBar">
+      <UniqueIdentifier>{2f67b537-f258-48d3-98e7-c531e767ae24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29\08.LongAttackEffect">
+      <UniqueIdentifier>{551834f4-50e4-4630-9101-e7bf7a6e5f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\03.DamageImpl">
+      <UniqueIdentifier>{fbf29105-338c-4923-8ca9-d36ee102478c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern\02.BridgePattern\00.Interface%28추상층%29\09.DamageEffect">
+      <UniqueIdentifier>{3a7e0bbb-e1d9-46d7-a466-a09b28c0c666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\Bat\BatBullet">
+      <UniqueIdentifier>{fd8c2dc3-a52e-4e50-a8b6-a1a4d33f6961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\MainWeapon\Bomerang">
+      <UniqueIdentifier>{7493c635-fe71-4c27-b582-681df7067582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\MainWeapon\Bomerang\BomerangAct">
+      <UniqueIdentifier>{6bbc8d8d-8881-4463-a08d-b07081f837bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\Boss\IcePillar\IceBullet">
+      <UniqueIdentifier>{9a75223f-e837-4c37-92d1-fe6ca89aec7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\Boss\IcePillar\IceBullet\Pattern1">
+      <UniqueIdentifier>{0203f568-b3af-4b80-8cb8-a98a15c29b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\EnemyHpBar\BossHpBar">
+      <UniqueIdentifier>{9a8d9daa-6277-4d11-bcde-0c5900ab58cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon\5.Restaurant\MyRestaurant">
+      <UniqueIdentifier>{1ec7a874-9ac1-40db-b836-96e7f2fee54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.FieldMgr\02.Field\01.Dungeon\3.WeaponShop\MyWeaponShop">
+      <UniqueIdentifier>{b01c8300-8940-43e3-85f1-d134077a3509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\MainWeapon\Revolver">
+      <UniqueIdentifier>{ce6a22c6-c46a-4964-880d-d34376eb68d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\13.SoundMgr">
+      <UniqueIdentifier>{12b2f738-ebca-49e9-9849-592a77171c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerBullet">
+      <UniqueIdentifier>{d9023504-debf-4bf8-a8bf-066c113691f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\Boss\IcePillar\IceBullet\IceSpear">
+      <UniqueIdentifier>{652f0245-4a65-4df2-b01d-b248650d3510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\Money">
+      <UniqueIdentifier>{228be7eb-1bb0-4d94-a83b-01b105236b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerHungryGauge">
+      <UniqueIdentifier>{e6f1c413-003a-41fe-b35c-34366e02726d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\PlayerDashCount">
+      <UniqueIdentifier>{a89db2d7-bcec-4de1-86f2-fec1b4e3c693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-2.Monster\Bat\BatItem">
+      <UniqueIdentifier>{f946acf1-c9de-407b-b289-4cdd9c9875cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-1.Player\Hand\MainHand\BatItemBullet">
+      <UniqueIdentifier>{5bdf17f1-89e1-4a5b-a937-68265372f7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\Artifact\Wing">
+      <UniqueIdentifier>{bd03b90f-ac9b-48cb-82aa-0305bcc52168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01-6.Item\Artifact\Box">
+      <UniqueIdentifier>{048b5ab1-d0a2-4e0c-9e34-399465f0f2df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Legend_Of_Zelda.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01.Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>97.Manager\00.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>97.Manager\01.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.Obj\01-2.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapObject.h">
+      <Filter>01.Obj\01-4.TrapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveField.h" />
+    <ClInclude Include="Jump.h">
+      <Filter>97.Manager\07.ActMgr\Command\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>97.Manager\06.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ActCommand.h">
+      <Filter>97.Manager\07.ActMgr\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Att.h">
+      <Filter>97.Manager\07.ActMgr\Command\Att</Filter>
+    </ClInclude>
+    <ClInclude Include="Idle.h">
+      <Filter>97.Manager\07.ActMgr\Command\IDLE</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMgr.h">
+      <Filter>01.Obj\01-1.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.Obj\01-1.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>97.Manager\03.TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMgr.h">
+      <Filter>97.Manager\10.DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>97.Manager\09.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>97.Manager\09.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>97.Manager\09.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>97.Manager\09.TextureMgr\00.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>97.Manager\05.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>97.Manager\05.SceneMgr\00.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>97.Manager\05.SceneMgr\00.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>97.Manager\05.SceneMgr\00.Scene\01.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>97.Manager\11.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>97.Manager\04.ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameMgr.h">
+      <Filter>97.Manager\12.FrameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAct.h">
+      <Filter>01.Obj\01-1.Player\PlayerAct</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01.Obj\01-5.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerJump.h">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerJump</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLookMouse.h">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerLookMouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>01.Obj\01-2.Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="IcePillar.h">
+      <Filter>01.Obj\01-2.Monster\Boss\IcePillar</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>98.Pattern\00.AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AIActor.h">
+      <Filter>98.Pattern\01.CommandPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommandActor.h">
+      <Filter>98.Pattern\01.CommandPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectImpl.h">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationImpl.h">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\00.AnimationImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="NoAnimationImpl.h">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\01.NoAnimationImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalEffect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\00.NormalEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffEffect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\01.BuffEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>98.Pattern\03.ObserverPattern\00.Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterSubject.h">
+      <Filter>98.Pattern\03.ObserverPattern\00.Subject\02.MonsterSubject</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>98.Pattern\03.ObserverPattern\01.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="StopEffect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\02.StopEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterObserver.h">
+      <Filter>98.Pattern\03.ObserverPattern\01.Observer\00.HpObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterHpBar.h">
+      <Filter>01.Obj\01-2.Monster\00.MonsterHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>01.Obj\99.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>97.Manager\05.SceneMgr\00.Scene\02.Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SetButton.h">
+      <Filter>01.Obj\99.UI\01.Button\SetButton</Filter>
+    </ClInclude>
+    <ClInclude Include="StartButton.h">
+      <Filter>01.Obj\99.UI\01.Button\StartButton</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldMgr.h">
+      <Filter>97.Manager\02.FieldMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>97.Manager\03.TileMgr\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>97.Manager\08.LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMgr.h">
+      <Filter>97.Manager\08.LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveLeft.h">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerMove\Left</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLeft.h">
+      <Filter>97.Manager\07.ActMgr\Command\Move\Left</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveRight.h">
+      <Filter>97.Manager\07.ActMgr\Command\Move\Right</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveRight.h">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerMove\Right</Filter>
+    </ClInclude>
+    <ClInclude Include="PressDown.h">
+      <Filter>97.Manager\07.ActMgr\Command\Jump\PressDown</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDownJump.h">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerJump\PlayerDownJump</Filter>
+    </ClInclude>
+    <ClInclude Include="Dash.h">
+      <Filter>97.Manager\07.ActMgr\Command\Dash</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDash.h">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerDash</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitButton.h">
+      <Filter>01.Obj\99.UI\01.Button\ExitButton</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>97.Manager\00.ObjMgr\00.UIMgr\AlwaysUI</Filter>
+    </ClInclude>
+    <ClInclude Include="OnOffUIMgr.h">
+      <Filter>97.Manager\00.ObjMgr\00.UIMgr\OnOffUI</Filter>
+    </ClInclude>
+    <ClInclude Include="OnOffUI.h">
+      <Filter>97.Manager\00.ObjMgr\00.UIMgr\OnOffUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>97.Manager\00.ObjMgr\00.UIMgr\OnOffUI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryIcon.h">
+      <Filter>01.Obj\02.Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="ActMgr.h">
+      <Filter>97.Manager\08.LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="IcePillarEffect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\03.IcePillarEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalSword.h">
+      <Filter>01.Obj\01-6.Item\MainWeapon\NormalSword</Filter>
+    </ClInclude>
+    <ClInclude Include="FireSword.h">
+      <Filter>01.Obj\01-6.Item\MainWeapon\FireSword</Filter>
+    </ClInclude>
+    <ClInclude Include="RegenRing.h">
+      <Filter>01.Obj\01-6.Item\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="MainHand.h">
+      <Filter>01.Obj\01-1.Player\Hand\MainHand</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldChangeAni.h">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\02.FieldChangeAni</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonGate.h">
+      <Filter>01.Obj\DungeonGate</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>97.Manager\05.SceneMgr\03.Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon1.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\1</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon2.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\2</Filter>
+    </ClInclude>
+    <ClInclude Include="Restaurant.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\5.Restaurant</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon3.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\4</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponShopStage.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\3.WeaponShop</Filter>
+    </ClInclude>
+    <ClInclude Include="ReinForce.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\7.ReinForce</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStage.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\8.BossStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon4.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\6</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaAnimationImpl.h">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\00.AnimationImpl\00.AlphaAnimationImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="DashEffect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\05.DashEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeAttackEffect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\04.MeleeAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="SkullDog.h">
+      <Filter>01.Obj\01-2.Monster\SkullDog</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningEffect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\06.WarningEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHpBar.h">
+      <Filter>01.Obj\01-1.Player\PlayerHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="HitEffect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\07.HitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="BanshBullet.h">
+      <Filter>01.Obj\01-2.Monster\Bansh\BanshBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bansh.h">
+      <Filter>01.Obj\01-2.Monster\Bansh</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>01.Obj\01-2.Monster\Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHpBar.h">
+      <Filter>01.Obj\01-2.Monster\EnemyHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="SkullSoldier.h">
+      <Filter>01.Obj\01-2.Monster\SkullSoldier</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageEffectImpl.h">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\03.DamageImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageEffect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\09.DamageEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="LongAttackEffect.h">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\08.LongAttackEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicShield.h">
+      <Filter>01.Obj\01-6.Item\SubWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="BatBullet.h">
+      <Filter>01.Obj\01-2.Monster\Bat\BatBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SubHand.h">
+      <Filter>01.Obj\01-1.Player\Hand\SubHand</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomerang.h">
+      <Filter>01.Obj\01-6.Item\MainWeapon\Bomerang</Filter>
+    </ClInclude>
+    <ClInclude Include="BomerangAct.h">
+      <Filter>01.Obj\01-6.Item\MainWeapon\Bomerang\BomerangAct</Filter>
+    </ClInclude>
+    <ClInclude Include="IceBullet.h">
+      <Filter>01.Obj\01-2.Monster\Boss\IcePillar\IceBullet\Pattern1</Filter>
+    </ClInclude>
+    <ClInclude Include="IceSpear.h">
+      <Filter>01.Obj\01-2.Monster\Boss\IcePillar\IceBullet\IceSpear</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHpBar.h">
+      <Filter>01.Obj\01-2.Monster\EnemyHpBar\BossHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="RevolverBullet.h">
+      <Filter>01.Obj\01-1.Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWeaponShop.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\3.WeaponShop\MyWeaponShop</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>97.Manager\13.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRestaurant.h">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\5.Restaurant\MyRestaurant</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMoney.h">
+      <Filter>01.Obj\01-6.Item\Money</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHungryGauge.h">
+      <Filter>01.Obj\01-1.Player\PlayerHungryGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDashCount.h" />
+    <ClInclude Include="BatItem.h" />
+    <ClInclude Include="BatItemBullet.h" />
+    <ClInclude Include="WingBoot.h" />
+    <ClInclude Include="Box.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01.Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>97.Manager\00.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>97.Manager\01.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.Obj\01-2.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapObject.cpp">
+      <Filter>01.Obj\01-4.TrapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Legend_Of_Zelda.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveField.cpp" />
+    <ClCompile Include="Jump.cpp">
+      <Filter>97.Manager\07.ActMgr\Command\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>97.Manager\06.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ActMgr.cpp">
+      <Filter>97.Manager\07.ActMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Att.cpp">
+      <Filter>97.Manager\07.ActMgr\Command\Att</Filter>
+    </ClCompile>
+    <ClCompile Include="Idle.cpp">
+      <Filter>97.Manager\07.ActMgr\Command\IDLE</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMgr.cpp">
+      <Filter>01.Obj\01-1.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.Obj\01-1.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>97.Manager\03.TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMgr.cpp">
+      <Filter>97.Manager\10.DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>97.Manager\09.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>97.Manager\09.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>97.Manager\09.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>97.Manager\09.TextureMgr\00.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>97.Manager\05.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>97.Manager\05.SceneMgr\00.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>97.Manager\05.SceneMgr\00.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>97.Manager\11.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>97.Manager\04.ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameMgr.cpp">
+      <Filter>97.Manager\12.FrameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01.Obj\01-5.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerJump.cpp">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerJump</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLookMouse.cpp">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerLookMouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>01.Obj\01-2.Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="IcePillar.cpp">
+      <Filter>01.Obj\01-2.Monster\Boss\IcePillar</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectImpl.cpp">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationImpl.cpp">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\00.AnimationImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="NoAnimationImpl.cpp">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\01.NoAnimationImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalEffect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\00.NormalEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>98.Pattern\03.ObserverPattern\00.Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterSubject.cpp">
+      <Filter>98.Pattern\03.ObserverPattern\00.Subject\02.MonsterSubject</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>98.Pattern\03.ObserverPattern\01.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="StopEffect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\02.StopEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterObserver.cpp">
+      <Filter>98.Pattern\03.ObserverPattern\01.Observer\00.HpObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterHpBar.cpp">
+      <Filter>01.Obj\01-2.Monster\00.MonsterHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>01.Obj\99.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>97.Manager\05.SceneMgr\00.Scene\02.Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SetButton.cpp">
+      <Filter>01.Obj\99.UI\01.Button\SetButton</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>01.Obj\99.UI\01.Button\StartButton</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldMgr.cpp">
+      <Filter>97.Manager\02.FieldMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>97.Manager\03.TileMgr\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>97.Manager\08.LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMgr.cpp">
+      <Filter>97.Manager\08.LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveLeft.cpp">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerMove\Left</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLeft.cpp">
+      <Filter>97.Manager\07.ActMgr\Command\Move\Left</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveRight.cpp">
+      <Filter>97.Manager\07.ActMgr\Command\Move\Right</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveRight.cpp">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerMove\Right</Filter>
+    </ClCompile>
+    <ClCompile Include="PressDown.cpp">
+      <Filter>97.Manager\07.ActMgr\Command\Jump\PressDown</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDownJump.cpp">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerJump\PlayerDownJump</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>97.Manager\05.SceneMgr\00.Scene\01.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Dash.cpp">
+      <Filter>97.Manager\07.ActMgr\Command\Dash</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDash.cpp">
+      <Filter>01.Obj\01-1.Player\PlayerAct\PlayerDash</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitButton.cpp">
+      <Filter>01.Obj\99.UI\01.Button\ExitButton</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>97.Manager\00.ObjMgr\00.UIMgr\AlwaysUI</Filter>
+    </ClCompile>
+    <ClCompile Include="OnOffUIMgr.cpp">
+      <Filter>97.Manager\00.ObjMgr\00.UIMgr\OnOffUI</Filter>
+    </ClCompile>
+    <ClCompile Include="OnOffUI.cpp">
+      <Filter>97.Manager\00.ObjMgr\00.UIMgr\OnOffUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>97.Manager\00.ObjMgr\00.UIMgr\OnOffUI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryIcon.cpp">
+      <Filter>01.Obj\02.Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="IcePillarEffect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\03.IcePillarEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalSword.cpp">
+      <Filter>01.Obj\01-6.Item\MainWeapon\NormalSword</Filter>
+    </ClCompile>
+    <ClCompile Include="FireSword.cpp">
+      <Filter>01.Obj\01-6.Item\MainWeapon\FireSword</Filter>
+    </ClCompile>
+    <ClCompile Include="RegenRing.cpp">
+      <Filter>01.Obj\01-6.Item\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="MainHand.cpp">
+      <Filter>01.Obj\01-1.Player\Hand\MainHand</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldChangeAni.cpp">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\02.FieldChangeAni</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonGate.cpp">
+      <Filter>01.Obj\DungeonGate</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>97.Manager\05.SceneMgr\03.Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon1.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon2.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\2</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffEffect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\01.BuffEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Restaurant.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\5.Restaurant</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon3.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\4</Filter>
+    </ClCompile>
+    <ClCompile Include="ReinForce.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\7.ReinForce</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStage.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\8.BossStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon4.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\6</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaAnimationImpl.cpp">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\00.AnimationImpl\00.AlphaAnimationImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="DashEffect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\05.DashEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeAttackEffect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\04.MeleeAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullDog.cpp">
+      <Filter>01.Obj\01-2.Monster\SkullDog</Filter>
+    </ClCompile>
+    <ClCompile Include="WarningEffect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\06.WarningEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHpBar.cpp">
+      <Filter>01.Obj\01-1.Player\PlayerHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="HitEffect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\07.HitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="BanshBullet.cpp">
+      <Filter>01.Obj\01-2.Monster\Bansh\BanshBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bansh.cpp">
+      <Filter>01.Obj\01-2.Monster\Bansh</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>01.Obj\01-2.Monster\Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHpBar.cpp">
+      <Filter>01.Obj\01-2.Monster\EnemyHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullSoldier.cpp">
+      <Filter>01.Obj\01-2.Monster\SkullSoldier</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageEffectImpl.cpp">
+      <Filter>98.Pattern\02.BridgePattern\01.Implementor%28구현층%29\03.DamageImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageEffect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\09.DamageEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="LongAttackEffect.cpp">
+      <Filter>98.Pattern\02.BridgePattern\00.Interface%28추상층%29\08.LongAttackEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicShield.cpp">
+      <Filter>01.Obj\01-6.Item\SubWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="BatBullet.cpp">
+      <Filter>01.Obj\01-2.Monster\Bat\BatBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SubHand.cpp">
+      <Filter>01.Obj\01-1.Player\Hand\SubHand</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomerang.cpp">
+      <Filter>01.Obj\01-6.Item\MainWeapon\Bomerang</Filter>
+    </ClCompile>
+    <ClCompile Include="BomerangAct.cpp">
+      <Filter>01.Obj\01-6.Item\MainWeapon\Bomerang\BomerangAct</Filter>
+    </ClCompile>
+    <ClCompile Include="IceBullet.cpp">
+      <Filter>01.Obj\01-2.Monster\Boss\IcePillar\IceBullet\Pattern1</Filter>
+    </ClCompile>
+    <ClCompile Include="IceSpear.cpp">
+      <Filter>01.Obj\01-2.Monster\Boss\IcePillar\IceBullet\IceSpear</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHpBar.cpp">
+      <Filter>01.Obj\01-2.Monster\EnemyHpBar\BossHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="RevolverBullet.cpp">
+      <Filter>01.Obj\01-1.Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWeaponShop.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\3.WeaponShop\MyWeaponShop</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>97.Manager\13.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponShopStage.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\3.WeaponShop</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRestaurant.cpp">
+      <Filter>97.Manager\02.FieldMgr\02.Field\01.Dungeon\5.Restaurant\MyRestaurant</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMoney.cpp">
+      <Filter>01.Obj\01-6.Item\Money</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHungryGauge.cpp">
+      <Filter>01.Obj\01-1.Player\PlayerHungryGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDashCount.cpp" />
+    <ClCompile Include="BatItem.cpp" />
+    <ClCompile Include="BatItemBullet.cpp" />
+    <ClCompile Include="WingBoot.cpp" />
+    <ClCompile Include="Box.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Default</Filter>
+    </Image>
+    <Image Include="Legend_Of_Zelda.ico">
+      <Filter>Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Legend_Of_Zelda.rc">
+      <Filter>Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

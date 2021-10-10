@@ -1,0 +1,1 @@
+DungeonGate|Gate|DungeonGate|0|1|2967|939|200|300|300|300

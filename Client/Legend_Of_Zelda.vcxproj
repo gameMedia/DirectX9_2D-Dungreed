@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9482DD4F-11DB-4AF0-8C6B-AAAA07B35BBD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Legend_Of_Zelda</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(WindowsSDK_IncludePath);C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(WindowsSDK_IncludePath);C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Headers/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Headers</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="ActCommand.h" />
+    <ClInclude Include="ActMgr.h" />
+    <ClInclude Include="AIActor.h" />
+    <ClInclude Include="AlphaAnimationImpl.h" />
+    <ClInclude Include="AnimationImpl.h" />
+    <ClInclude Include="Att.h" />
+    <ClInclude Include="Bansh.h" />
+    <ClInclude Include="BanshBullet.h" />
+    <ClInclude Include="Bat.h" />
+    <ClInclude Include="BatBullet.h" />
+    <ClInclude Include="BatItem.h" />
+    <ClInclude Include="BatItemBullet.h" />
+    <ClInclude Include="Bomerang.h" />
+    <ClInclude Include="BomerangAct.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="BossHpBar.h" />
+    <ClInclude Include="BossStage.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="BuffEffect.h" />
+    <ClInclude Include="CollisionMgr.h" />
+    <ClInclude Include="DamageEffect.h" />
+    <ClInclude Include="DamageEffectImpl.h" />
+    <ClInclude Include="Dash.h" />
+    <ClInclude Include="DashEffect.h" />
+    <ClInclude Include="DeviceMgr.h" />
+    <ClInclude Include="Dungeon.h" />
+    <ClInclude Include="Dungeon2.h" />
+    <ClInclude Include="Dungeon3.h" />
+    <ClInclude Include="Dungeon4.h" />
+    <ClInclude Include="DungeonGate.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EffectImpl.h" />
+    <ClInclude Include="EnemyHpBar.h" />
+    <ClInclude Include="ExitButton.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="FieldChangeAni.h" />
+    <ClInclude Include="FieldMgr.h" />
+    <ClInclude Include="FireSword.h" />
+    <ClInclude Include="FrameMgr.h" />
+    <ClInclude Include="HitEffect.h" />
+    <ClInclude Include="IceBullet.h" />
+    <ClInclude Include="IcePillar.h" />
+    <ClInclude Include="IcePillarEffect.h" />
+    <ClInclude Include="IceSpear.h" />
+    <ClInclude Include="ICommandActor.h" />
+    <ClInclude Include="Idle.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryIcon.h" />
+    <ClInclude Include="LongAttackEffect.h" />
+    <ClInclude Include="MagicShield.h" />
+    <ClInclude Include="MainHand.h" />
+    <ClInclude Include="MeleeAttackEffect.h" />
+    <ClInclude Include="MyMoney.h" />
+    <ClInclude Include="MyRestaurant.h" />
+    <ClInclude Include="MyWeaponShop.h" />
+    <ClInclude Include="NormalSword.h" />
+    <ClInclude Include="Jump.h" />
+    <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Legend_Of_Zelda.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="LineMgr.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterHpBar.h" />
+    <ClInclude Include="MonsterObserver.h" />
+    <ClInclude Include="MonsterSubject.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MoveLeft.h" />
+    <ClInclude Include="MoveRight.h" />
+    <ClInclude Include="MultiTexture.h" />
+    <ClInclude Include="NoAnimationImpl.h" />
+    <ClInclude Include="NormalEffect.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="ObjMgr.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="OnOffUI.h" />
+    <ClInclude Include="OnOffUIMgr.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerAct.h" />
+    <ClInclude Include="PlayerDash.h" />
+    <ClInclude Include="PlayerDashCount.h" />
+    <ClInclude Include="PlayerDownJump.h" />
+    <ClInclude Include="PlayerHpBar.h" />
+    <ClInclude Include="PlayerHungryGauge.h" />
+    <ClInclude Include="PlayerJump.h" />
+    <ClInclude Include="PlayerLookMouse.h" />
+    <ClInclude Include="PlayerMoveLeft.h" />
+    <ClInclude Include="PlayerMoveRight.h" />
+    <ClInclude Include="PressDown.h" />
+    <ClInclude Include="RegenRing.h" />
+    <ClInclude Include="ReinForce.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Restaurant.h" />
+    <ClInclude Include="RevolverBullet.h" />
+    <ClInclude Include="SaveField.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="ScrollMgr.h" />
+    <ClInclude Include="SetButton.h" />
+    <ClInclude Include="SingleTexture.h" />
+    <ClInclude Include="SkullDog.h" />
+    <ClInclude Include="SkullSoldier.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="StartButton.h" />
+    <ClInclude Include="StateMgr.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StopEffect.h" />
+    <ClInclude Include="SubHand.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureMgr.h" />
+    <ClInclude Include="TileMgr.h" />
+    <ClInclude Include="TimeMgr.h" />
+    <ClInclude Include="Dungeon1.h" />
+    <ClInclude Include="TrapObject.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="UIMgr.h" />
+    <ClInclude Include="WarningEffect.h" />
+    <ClInclude Include="WeaponShopStage.h" />
+    <ClInclude Include="WingBoot.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActMgr.cpp" />
+    <ClCompile Include="AlphaAnimationImpl.cpp" />
+    <ClCompile Include="AnimationImpl.cpp" />
+    <ClCompile Include="Att.cpp" />
+    <ClCompile Include="Bansh.cpp" />
+    <ClCompile Include="BanshBullet.cpp" />
+    <ClCompile Include="Bat.cpp" />
+    <ClCompile Include="BatBullet.cpp" />
+    <ClCompile Include="BatItem.cpp" />
+    <ClCompile Include="BatItemBullet.cpp" />
+    <ClCompile Include="Bomerang.cpp" />
+    <ClCompile Include="BomerangAct.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="BossHpBar.cpp" />
+    <ClCompile Include="BossStage.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="BuffEffect.cpp" />
+    <ClCompile Include="CollisionMgr.cpp" />
+    <ClCompile Include="DamageEffect.cpp" />
+    <ClCompile Include="DamageEffectImpl.cpp" />
+    <ClCompile Include="Dash.cpp" />
+    <ClCompile Include="DashEffect.cpp" />
+    <ClCompile Include="DeviceMgr.cpp" />
+    <ClCompile Include="Dungeon.cpp" />
+    <ClCompile Include="Dungeon2.cpp" />
+    <ClCompile Include="Dungeon3.cpp" />
+    <ClCompile Include="Dungeon4.cpp" />
+    <ClCompile Include="DungeonGate.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EffectImpl.cpp" />
+    <ClCompile Include="EnemyHpBar.cpp" />
+    <ClCompile Include="ExitButton.cpp" />
+    <ClCompile Include="Field.cpp" />
+    <ClCompile Include="FieldChangeAni.cpp" />
+    <ClCompile Include="FieldMgr.cpp" />
+    <ClCompile Include="FireSword.cpp" />
+    <ClCompile Include="FrameMgr.cpp" />
+    <ClCompile Include="HitEffect.cpp" />
+    <ClCompile Include="IceBullet.cpp" />
+    <ClCompile Include="IcePillar.cpp" />
+    <ClCompile Include="IcePillarEffect.cpp" />
+    <ClCompile Include="IceSpear.cpp" />
+    <ClCompile Include="Idle.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="InventoryIcon.cpp" />
+    <ClCompile Include="LongAttackEffect.cpp" />
+    <ClCompile Include="MagicShield.cpp" />
+    <ClCompile Include="MainHand.cpp" />
+    <ClCompile Include="MeleeAttackEffect.cpp" />
+    <ClCompile Include="MyMoney.cpp" />
+    <ClCompile Include="MyRestaurant.cpp" />
+    <ClCompile Include="MyWeaponShop.cpp" />
+    <ClCompile Include="NormalSword.cpp" />
+    <ClCompile Include="Jump.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="Legend_Of_Zelda.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="LineMgr.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterHpBar.cpp" />
+    <ClCompile Include="MonsterObserver.cpp" />
+    <ClCompile Include="MonsterSubject.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MoveLeft.cpp" />
+    <ClCompile Include="MoveRight.cpp" />
+    <ClCompile Include="MultiTexture.cpp" />
+    <ClCompile Include="NoAnimationImpl.cpp" />
+    <ClCompile Include="NormalEffect.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="ObjMgr.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="OnOffUI.cpp" />
+    <ClCompile Include="OnOffUIMgr.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerDash.cpp" />
+    <ClCompile Include="PlayerDashCount.cpp" />
+    <ClCompile Include="PlayerDownJump.cpp" />
+    <ClCompile Include="PlayerHpBar.cpp" />
+    <ClCompile Include="PlayerHungryGauge.cpp" />
+    <ClCompile Include="PlayerJump.cpp" />
+    <ClCompile Include="PlayerLookMouse.cpp" />
+    <ClCompile Include="PlayerMoveLeft.cpp" />
+    <ClCompile Include="PlayerMoveRight.cpp" />
+    <ClCompile Include="PressDown.cpp" />
+    <ClCompile Include="RegenRing.cpp" />
+    <ClCompile Include="ReinForce.cpp" />
+    <ClCompile Include="Restaurant.cpp" />
+    <ClCompile Include="RevolverBullet.cpp" />
+    <ClCompile Include="SaveField.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="ScrollMgr.cpp" />
+    <ClCompile Include="SetButton.cpp" />
+    <ClCompile Include="SingleTexture.cpp" />
+    <ClCompile Include="SkullDog.cpp" />
+    <ClCompile Include="SkullSoldier.cpp" />
+    <ClCompile Include="SoundMgr.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="StartButton.cpp" />
+    <ClCompile Include="StateMgr.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StopEffect.cpp" />
+    <ClCompile Include="SubHand.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureMgr.cpp" />
+    <ClCompile Include="TileMgr.cpp" />
+    <ClCompile Include="TimeMgr.cpp" />
+    <ClCompile Include="Dungeon1.cpp" />
+    <ClCompile Include="TrapObject.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="UIMgr.cpp" />
+    <ClCompile Include="WarningEffect.cpp" />
+    <ClCompile Include="WeaponShopStage.cpp" />
+    <ClCompile Include="WingBoot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Legend_Of_Zelda.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Legend_Of_Zelda.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

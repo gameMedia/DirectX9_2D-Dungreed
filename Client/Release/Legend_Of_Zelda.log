@@ -1,0 +1,180 @@
+﻿  stdafx.cpp
+  ActMgr.cpp
+  AlphaAnimationImpl.cpp
+  AnimationImpl.cpp
+  Att.cpp
+  Bansh.cpp
+  BanshBullet.cpp
+BanshBullet.cpp(36): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+BanshBullet.cpp(104): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Bat.cpp
+  BatBullet.cpp
+BatBullet.cpp(40): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+BatBullet.cpp(120): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+BatBullet.cpp(121): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BatItem.cpp
+  BatItemBullet.cpp
+BatItemBullet.cpp(39): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+BatItemBullet.cpp(103): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Bomerang.cpp
+  BomerangAct.cpp
+  Boss.cpp
+Boss.cpp(215): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Boss.cpp(340): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BossHpBar.cpp
+  BossStage.cpp
+  Box.cpp
+  BuffEffect.cpp
+  CollisionMgr.cpp
+  DamageEffect.cpp
+  DamageEffectImpl.cpp
+DamageEffectImpl.cpp(63): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  컴파일하고 있습니다...
+  Dash.cpp
+  DashEffect.cpp
+  DeviceMgr.cpp
+  Dungeon.cpp
+  Dungeon1.cpp
+  Dungeon2.cpp
+  Dungeon3.cpp
+  Dungeon4.cpp
+  DungeonGate.cpp
+  Effect.cpp
+c:\users\administrator.jusin-20180207y\documents\framework 06-10 05시00분 client&twoitem\headers\Function.h(30): warning C4150: 불완전한 형식 'CEffectImpl'에 대한 포인터를 삭제했습니다. 소멸자가 호출되지 않습니다.
+  c:\users\administrator.jusin-20180207y\documents\framework 06-10 05시00분 client&twoitem\client\Effect.h(4): note: 'CEffectImpl' 선언을 참조하십시오.
+  Effect.cpp(56): note: 컴파일 중인 함수 템플릿 인스턴스화 'void SafeDelete<CEffectImpl*>(T &)'에 대한 참조를 확인하십시오.
+          with
+          [
+              T=CEffectImpl *
+          ]
+  EffectImpl.cpp
+  EnemyHpBar.cpp
+  ExitButton.cpp
+  Field.cpp
+  FieldChangeAni.cpp
+  FieldMgr.cpp
+  FireSword.cpp
+  FrameMgr.cpp
+  HitEffect.cpp
+  IceBullet.cpp
+IceBullet.cpp(58): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+IceBullet.cpp(141): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+IceBullet.cpp(142): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  컴파일하고 있습니다...
+  IcePillar.cpp
+  IcePillarEffect.cpp
+  IceSpear.cpp
+IceSpear.cpp(47): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+IceSpear.cpp(160): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+IceSpear.cpp(161): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Idle.cpp
+  Inventory.cpp
+Inventory.cpp(63): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Inventory.cpp(64): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Inventory.cpp(372): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Inventory.cpp(373): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  InventoryIcon.cpp
+  Jump.cpp
+  KeyMgr.cpp
+  Legend_Of_Zelda.cpp
+  Line.cpp
+  LineMgr.cpp
+  Logo.cpp
+  LongAttackEffect.cpp
+  MagicShield.cpp
+  MainGame.cpp
+  MainHand.cpp
+MainHand.cpp(135): warning C4244: '=': 'const UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MainMenu.cpp
+MainMenu.cpp(63): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MainMenu.cpp(64): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MeleeAttackEffect.cpp
+  Monster.cpp
+  MonsterHpBar.cpp
+  컴파일하고 있습니다...
+  MonsterObserver.cpp
+  MonsterSubject.cpp
+  Mouse.cpp
+  MoveLeft.cpp
+  MoveRight.cpp
+  MultiTexture.cpp
+  MyMoney.cpp
+  MyRestaurant.cpp
+MyRestaurant.cpp(30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MyRestaurant.cpp(31): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MyRestaurant.cpp(59): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MyRestaurant.cpp(272): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MyRestaurant.cpp(273): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MyWeaponShop.cpp
+MyWeaponShop.cpp(32): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MyWeaponShop.cpp(33): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MyWeaponShop.cpp(338): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+MyWeaponShop.cpp(339): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NoAnimationImpl.cpp
+  NormalEffect.cpp
+  NormalSword.cpp
+  Obj.cpp
+  ObjMgr.cpp
+  Observer.cpp
+  OnOffUI.cpp
+  OnOffUIMgr.cpp
+  Player.cpp
+Player.cpp(179): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Player.cpp(392): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Player.cpp(573): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PlayerDash.cpp
+  PlayerDashCount.cpp
+  컴파일하고 있습니다...
+  PlayerDownJump.cpp
+PlayerDownJump.cpp(32): warning C4244: '=': 'float'에서 'clock_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+PlayerDownJump.cpp(33): warning C4244: '=': 'float'에서 'clock_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PlayerHpBar.cpp
+  PlayerHungryGauge.cpp
+  PlayerJump.cpp
+  PlayerLookMouse.cpp
+  PlayerMoveLeft.cpp
+  PlayerMoveRight.cpp
+  PressDown.cpp
+  RegenRing.cpp
+  ReinForce.cpp
+  Restaurant.cpp
+  RevolverBullet.cpp
+RevolverBullet.cpp(40): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+RevolverBullet.cpp(119): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SaveField.cpp
+  Scene.cpp
+  SceneMgr.cpp
+  ScrollMgr.cpp
+  SetButton.cpp
+  SingleTexture.cpp
+  SkullDog.cpp
+  SkullSoldier.cpp
+  컴파일하고 있습니다...
+  SoundMgr.cpp
+  Stage.cpp
+  StartButton.cpp
+  StateMgr.cpp
+  StopEffect.cpp
+  SubHand.cpp
+SubHand.cpp(53): warning C4244: '초기화 중': 'const UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Subject.cpp
+Subject.cpp(17): warning C4003: 'NULL_CHECK_RETURN' 매크로의 실제 매개 변수가 부족합니다.
+Subject.cpp(24): warning C4003: 'NULL_CHECK_RETURN' 매크로의 실제 매개 변수가 부족합니다.
+  Terrain.cpp
+  Texture.cpp
+  TextureMgr.cpp
+  TileMgr.cpp
+  TimeMgr.cpp
+  TrapObject.cpp
+  UI.cpp
+  UIMgr.cpp
+  WarningEffect.cpp
+  WeaponShopStage.cpp
+  WingBoot.cpp
+  코드를 생성하고 있습니다.
+  6 of 3382 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    23 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Legend_Of_Zelda.vcxproj -> C:\Users\Administrator.JUSIN-20180207Y\Documents\FrameWork 06-10 05시00분 Client&TwoItem\Release\Legend_Of_Zelda.exe
+  Legend_Of_Zelda.vcxproj -> C:\Users\Administrator.JUSIN-20180207Y\Documents\FrameWork 06-10 05시00분 Client&TwoItem\Release\Legend_Of_Zelda.pdb (Full PDB)
